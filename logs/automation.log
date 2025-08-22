@@ -1,0 +1,22 @@
+10:00:59.206 [main] DEBUG org.apache.hc.client5.http.wire - http-outgoing-0 << "[0xffffffbb][0xffffff98][0x10]Z[0xffffffd4][0xffffffbc][0xffffffc6][0xffffffd9]`[0xffffffc9]7>[0x9][0x1c]yf[0xffffffe7][0xf]N[0xffffffd3][0xffffffba][0xffffff92][0xfffffff0][0x15]>^%-[0xffffff95]'[0xffffffea]S[0xb]:[0xffffffb4][0xffffffa7][0x15]5[0xffffff96]Sk)=]l[0xffffff85]T[0xfffffffe][0xffffffd4][0xffffff95][0xfffffff4]T[0xffffff9b]-[0xffffffce]$[0xffffffaa]t;[0xffffffac][0xffffffa4]'/([0xffffffdf][0x12][0xffffff92]-%[0xfffffffe]7[0xffffffdf][0xffffffae]/[0xfffffff0][0xffffffd4]in[0xffffff87][0xffffffe3][0xf]u[0xfffffff3][0xffffff94][0x7][0xffffff9c][0xffffffea]i[0x5][0xffffffe0]<[0xffffffba][0xffffffb0]#%[0xffffffaf][0xffffffae][0xffffffa8])[0xffffffe9][0x5]Q/[0xffffffc0][0xc]Y[0xffffffc8]#[0xffffffdb][0xfffffff0]L,[0xffffff8b][0xffffff83]G[0xffffffd0][0xffffffa2][0xffffffd0][0xffffffd1]N*[0xfffffff0]?l[0x1d]d@[0xffffffbe][0x15][0x0][0x0]"
+10:00:59.209 [main] DEBUG org.apache.hc.client5.http.impl.classic.InternalHttpClient - ep-0000000001 releasing valid endpoint
+10:00:59.209 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 releasing endpoint
+10:00:59.209 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection http-outgoing-0 can be kept alive for 3 MINUTES
+10:00:59.210 [main] DEBUG org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager - ep-0000000001 connection released [route: {s}->https://raw.githubusercontent.com:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+10:00:59.210 [main] DEBUG io.github.bonigarcia.wdm.versions.VersionDetector - Detecting chrome version using online commands.properties
+10:00:59.214 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell - Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+10:00:59.255 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell - Result: 
+10:00:59.255 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell - Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%PROGRAMFILES(X86):\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+10:00:59.293 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell - Result: 
+10:00:59.293 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell - Running command on the shell: [cmd.exe, /C, wmic, datafile, where, name="%LOCALAPPDATA:\=\\%\\Google\\Chrome\\Application\\chrome.exe", get, Version, /value]
+10:00:59.332 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell - Result: 
+10:00:59.333 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell - Running command on the shell: [REG, QUERY, HKCU\Software\Google\Chrome\BLBeacon, /v, version]
+10:00:59.371 [main] DEBUG io.github.bonigarcia.wdm.versions.Shell - Result: HKEY_CURRENT_USER\Software\Google\Chrome\BLBeacon
+    version    REG_SZ    139.0.7258.128
+10:00:59.374 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome139=139.0.7258.138 in cache (valid until 15:36:17 22/08/2025 IST)
+10:00:59.374 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+10:00:59.376 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Storing resolution chrome=139 in cache (valid until 11:00:59 22/08/2025 IST)
+10:00:59.414 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 139.0.7258.138 found in cache
+10:00:59.416 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prasanth\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+10:01:02.285 [main] INFO  testCases.T2_loginaccout - ....Started T2_loginaccout....
+10:01:04.237 [main] INFO  testCases.T2_loginaccout - ....Completed T2_loginaccout....
