@@ -29,19 +29,13 @@ public class T2_loginaccout extends BaseClass{
 		//my account page
 		myaccountdashpage mypage=new myaccountdashpage(driver);
 		Boolean page=mypage.ismyaccountpageexites();
-		if(page.valueOf(true))
-		{
-			Assert.assertTrue(true);
-		}
-		else
-		{
-			Assert.fail();
-		}
-		}
-		catch(Exception e)
-		{
-			Assert.fail();
-		}
+	     Assert.assertNotNull(page, "ismyaccountpageexites() returned null!");
+	        Assert.assertTrue(page, "Login failed – My Account page not found!");
+
+	    } catch (Exception e) {
+	        logger.error("Exception in verifylogin: ", e);
+	        Assert.fail("Test failed due to exception: " + e.getMessage());
+	    }
 		logger.info("....Completed T2_loginaccout....");
 	}
 	
