@@ -9,8 +9,11 @@
   <parameter name="browser" value="chrome"></parameter>
     <classes>
      <!--<class name="testCases.T1_createaccount"/> --> 
-     <class name="testCases.T2_loginaccout"/>
+    <!--<class name="testCases.T2_loginaccout"/>-->
      <!--<class name="testCases.T2_DataDrivenlogintest"/> -->
+     <!--<class name="testCases.T3_addcart"/>-->
+     <class name="testCases.T4_Navbar_navigation"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

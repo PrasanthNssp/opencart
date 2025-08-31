@@ -8,13 +8,12 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.T2_loginaccout">
+      <class name="testCases.T4_Navbar_navigation">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verifylogin"/>
+          <include name="verifynavigation"/>
         </methods>
-      </class> <!-- testCases.T2_loginaccout -->
+      </class> <!-- testCases.T4_Navbar_navigation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

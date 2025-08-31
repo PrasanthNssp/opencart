@@ -1,0 +1,49 @@
+11:31:20.655 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml"
+11:31:20.984 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml
+
+11:31:21.346 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+11:31:21.888 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=139 in cache (valid until 12:26:44 24/08/2025 IST)
+11:31:21.890 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome139=139.0.7258.138 in cache (valid until 11:26:44 25/08/2025 IST)
+11:31:21.891 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+11:31:21.953 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 139.0.7258.138 found in cache
+11:31:21.954 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prasanth\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+11:31:25.095 [main] INFO  testCases.T3_addcart - started verifyaddcart
+11:31:30.601 [main] INFO  testCases.T3_addcart - clicked on ShoppingCart button
+11:31:30.651 [main] INFO  testCases.T3_addcart - product display pass
+11:31:30.685 [main] INFO  testCases.T3_addcart - quanty display pass
+11:31:30.716 [main] INFO  testCases.T3_addcart - comparistion started $123.20is1 item(s) - $123.20look
+11:31:30.721 [main] INFO  testCases.T3_addcart - completed verifyaddcart
+12:06:15.372 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml"
+12:06:15.734 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml
+
+12:06:16.025 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+12:06:16.545 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=139 in cache (valid until 12:26:44 24/08/2025 IST)
+12:06:16.548 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome139=139.0.7258.138 in cache (valid until 11:26:44 25/08/2025 IST)
+12:06:16.548 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+12:06:16.597 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 139.0.7258.138 found in cache
+12:06:16.599 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prasanth\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+12:06:19.628 [main] INFO  testCases.T2_loginaccout - ....Started T2_loginaccout....
+12:06:21.521 [main] INFO  testCases.T2_loginaccout - ....Completed T2_loginaccout....
+12:06:21.681 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+12:06:21.703 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=139 in cache (valid until 12:26:44 24/08/2025 IST)
+12:06:21.705 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome139=139.0.7258.138 in cache (valid until 11:26:44 25/08/2025 IST)
+12:06:21.705 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+12:06:21.744 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 139.0.7258.138 found in cache
+12:06:21.745 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prasanth\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+12:06:23.288 [main] INFO  testCases.T3_addcart - started verifyaddcart
+12:06:25.740 [main] INFO  testCases.T3_addcart - clicked on ShoppingCart button
+12:06:25.785 [main] INFO  testCases.T3_addcart - product display pass
+12:06:25.818 [main] INFO  testCases.T3_addcart - quanty display pass
+12:06:25.850 [main] INFO  testCases.T3_addcart - comparistion started $123.20is1 item(s) - $123.20look
+12:06:25.851 [main] INFO  testCases.T3_addcart - completed verifyaddcart
+12:06:25.855 [main] INFO  testCases.T3_addcart - verifyremovecart is started
+12:09:19.058 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml"
+12:09:19.394 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml
+
+12:09:19.696 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+12:09:20.177 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=139 in cache (valid until 12:26:44 24/08/2025 IST)
+12:09:20.178 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome139=139.0.7258.138 in cache (valid until 11:26:44 25/08/2025 IST)
+12:09:20.179 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)

@@ -1,0 +1,50 @@
+13:40:09.194 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml"
+13:40:09.381 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml
+
+13:40:09.562 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+13:40:09.862 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=139 in cache (valid until 14:33:45 23/08/2025 IST)
+13:40:09.863 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome139=139.0.7258.138 in cache (valid until 19:46:16 23/08/2025 IST)
+13:40:09.866 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+13:40:09.895 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 139.0.7258.138 found in cache
+13:40:09.896 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prasanth\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+13:45:49.263 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml"
+13:45:49.449 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml
+
+13:45:49.634 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+13:45:49.940 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=139 in cache (valid until 14:33:45 23/08/2025 IST)
+13:45:49.942 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome139=139.0.7258.138 in cache (valid until 19:46:16 23/08/2025 IST)
+13:45:49.943 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+13:45:49.975 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 139.0.7258.138 found in cache
+13:45:49.976 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prasanth\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+13:45:52.531 [main] INFO  testCases.T3_addcart - started verifyaddcart
+13:45:57.864 [main] INFO  testCases.T3_addcart - clicked on ShoppingCart button
+13:45:57.895 [main] INFO  testCases.T3_addcart - product display pass
+13:45:57.917 [main] INFO  testCases.T3_addcart - quanty display pass
+13:45:57.933 [main] INFO  testCases.T3_addcart - comparistion started
+13:49:08.750 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml"
+13:49:08.948 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml
+
+13:49:09.145 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+13:49:09.457 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=139 in cache (valid until 14:33:45 23/08/2025 IST)
+13:49:09.458 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome139=139.0.7258.138 in cache (valid until 19:46:16 23/08/2025 IST)
+13:49:09.459 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+13:49:09.494 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 139.0.7258.138 found in cache
+13:49:09.494 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prasanth\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe
+13:49:12.077 [main] INFO  testCases.T3_addcart - started verifyaddcart
+13:49:17.422 [main] INFO  testCases.T3_addcart - clicked on ShoppingCart button
+13:49:17.453 [main] INFO  testCases.T3_addcart - product display pass
+13:49:17.475 [main] INFO  testCases.T3_addcart - quanty display pass
+13:49:17.492 [main] INFO  testCases.T3_addcart - comparistion started
+13:54:12.998 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml"
+13:54:13.192 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Prasanth\eclipse-workspace\opencart\testng.xml
+
+13:54:13.391 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Using WebDriverManager 5.9.2
+13:54:13.704 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome=139 in cache (valid until 14:33:45 23/08/2025 IST)
+13:54:13.705 [main] DEBUG io.github.bonigarcia.wdm.cache.ResolutionCache - Resolution chrome139=139.0.7258.138 in cache (valid until 19:46:16 23/08/2025 IST)
+13:54:13.705 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 139.0.7258.138 (resolved driver for Chrome 139)
+13:54:13.734 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 139.0.7258.138 found in cache
+13:54:13.735 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Prasanth\.cache\selenium\chromedriver\win64\139.0.7258.138\chromedriver.exe

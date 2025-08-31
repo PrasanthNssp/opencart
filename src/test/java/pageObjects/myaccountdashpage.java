@@ -19,6 +19,10 @@ public class myaccountdashpage extends Basepage{
 	
 	@FindBy(xpath= "//h2[text()='My Account']")
 	WebElement textmyaccount;
+	
+	@FindBy(xpath= "//a[text()='Qafox.com']")
+	WebElement textQafox;
+	
 	public void enterlogout()
 	{
 		btnlogout.click();
@@ -32,5 +36,10 @@ public class myaccountdashpage extends Basepage{
 	public Boolean ismyaccountpageexites()
 	{
 		return textmyaccount.isDisplayed();
+	}
+	
+	public void enterQafox()
+	{
+		textQafox.click();
 	}
 }

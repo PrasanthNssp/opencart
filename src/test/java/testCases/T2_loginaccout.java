@@ -31,7 +31,7 @@ public class T2_loginaccout extends BaseClass{
 		Boolean page=mypage.ismyaccountpageexites();
 	     Assert.assertNotNull(page, "ismyaccountpageexites() returned null!");
 	        Assert.assertTrue(page, "Login failed – My Account page not found!");
-
+	        mypage.enterQafox();
 	    } catch (Exception e) {
 	        logger.error("Exception in verifylogin: ", e);
 	        Assert.fail("Test failed due to exception: " + e.getMessage());

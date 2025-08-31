@@ -22,7 +22,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -38,7 +40,7 @@ public class BaseClass {
 	@BeforeClass(groups={"Sanity","Regression","DataDriven","Master"})
 	@Parameters({"os","browser"}) //this for Cross browsing
 	public void setUp(String os, String browser) throws IOException {
-	    
+	  try {  
 		//It used for property file
 	    FileReader file= new FileReader("./src//test//resources//config.properties");
 	    p=new Properties();
@@ -51,7 +53,7 @@ public class BaseClass {
 	    {
 	    	DesiredCapabilities capabilities=new DesiredCapabilities();
 	    	
-	    	if(os.equalsIgnoreCase("window"))
+	    	if(os.equalsIgnoreCase("windows"))
 	    	{
 	    	capabilities.setPlatform(Platform.WIN11);
 	    	}
@@ -92,8 +94,8 @@ public class BaseClass {
 	                driver = new EdgeDriver();   
 	                break;
                
-	            case "Firefox" : 
-	    			WebDriverManager.firefoxdriver().setup();
+	            case "firefox" : 
+	            	 WebDriverManager.firefoxdriver().setup();
 	    			driver=new FirefoxDriver(); break;
 	    			
 	            default:
@@ -104,9 +106,14 @@ public class BaseClass {
 		driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	  }
+	  catch (Exception e) {
+          System.out.println("Error in setup: " + e.getMessage());
+          throw e; // very important, otherwise tests skip silently
+      }
 	}
 	
-	@AfterClass(groups={"Sanity","Regression","DataDriven","Master"})
+	//(groups={"Sanity","Regression","DataDriven","Master"})
 	public void tearDown()
 	{
 		driver.close();
